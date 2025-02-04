@@ -1,4 +1,4 @@
-# **My Monorepo**
+# **Monorepo**
 
 This is a TypeScript monorepo containing:
 - `@myorg/lib`: A shared library with reusable functions.
