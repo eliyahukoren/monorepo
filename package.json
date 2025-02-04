@@ -5,5 +5,11 @@
   "private" : true,
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "pnpm --filter @myorg/api run dev",
+    "build:lib": "pnpm --filter @myorg/lib run build",
+    "build:api": "pnpm --filter @myorg/api run build"
+  }
 }
